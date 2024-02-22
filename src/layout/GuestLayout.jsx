@@ -1,7 +1,10 @@
+import Headers from "../component/Headers.jsx";
+
 function GuestLayout({children}) {
     return (
         <>
-            {children}
+            <Headers/>
+                {children}
         </>
     );
 }

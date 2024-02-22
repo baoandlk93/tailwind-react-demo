@@ -1,0 +1,76 @@
+'Log files:
+C:\Users\AN HA\codegym\C3-fullstack\labs\tailwind-react\Users\_logs\2023-12-27T01_52_33_492Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: react-google-login@5.2.2
+Found: react@18.2.0
+node_modules/react
+  react@"^18.2.0" from the root project
+  peer react@"^16 || ^17 || ^18" from @headlessui/react@1.7.17
+  node_modules/@headlessui/react
+    @headlessui/react@"^1.7.17" from the root project
+  peer react@">= 16" from @heroicons/react@2.1.1
+  node_modules/@heroicons/react
+    @heroicons/react@"^2.1.1" from the root project
+  peer react@">=16.8.0" from @react-oauth/google@0.12.1
+  node_modules/@react-oauth/google
+    @react-oauth/google@"^0.12.1" from the root project
+  peerOptional react@"^16.9.0 || ^17.0.0 || ^18" from @reduxjs/toolkit@2.0.1
+  node_modules/@reduxjs/toolkit
+    @reduxjs/toolkit@"^2.0.1" from the root project
+  peer react@"^18.2.0" from react-dom@18.2.0
+  node_modules/react-dom
+    react-dom@"^18.2.0" from the root project
+    peer react-dom@"^16 || ^17 || ^18" from @headlessui/react@1.7.17
+    node_modules/@headlessui/react
+      @headlessui/react@"^1.7.17" from the root project
+    peer react-dom@">=16.8.0" from @react-oauth/google@0.12.1
+    node_modules/@react-oauth/google
+      @react-oauth/google@"^0.12.1" from the root project
+    peerOptional react-dom@"^16.8 || ^17.0 || ^18.0" from react-redux@8.1.3
+    node_modules/react-redux
+      react-redux@"^8.1.3" from the root project
+      peerOptional react-redux@"^7.2.1 || ^8.1.3 || ^9.0.0" from @reduxjs/toolkit@2.0.1
+      node_modules/@reduxjs/toolkit
+        @reduxjs/toolkit@"^2.0.1" from the root project
+    peer react-dom@">=16.8" from react-router-dom@6.21.0
+    node_modules/react-router-dom
+      react-router-dom@"^6.21.0" from the root project
+  peer react@"^16.8 || ^17.0 || ^18.0" from react-redux@8.1.3
+  node_modules/react-redux
+    react-redux@"^8.1.3" from the root project
+    peerOptional react-redux@"^7.2.1 || ^8.1.3 || ^9.0.0" from @reduxjs/toolkit@2.0.1
+    node_modules/@reduxjs/toolkit
+      @reduxjs/toolkit@"^2.0.1" from the root project
+  peer react@">=16.8" from react-router@6.21.0
+  node_modules/react-router
+    react-router@"6.21.0" from react-router-dom@6.21.0
+    node_modules/react-router-dom
+      react-router-dom@"^6.21.0" from the root project
+  peer react@">=16.8" from react-router-dom@6.21.0
+  node_modules/react-router-dom
+    react-router-dom@"^6.21.0" from the root project
+  peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from use-sync-external-store@1.2.0
+  node_modules/use-sync-external-store
+    use-sync-external-store@"^1.0.0" from react-redux@8.1.3
+    node_modules/react-redux
+      react-redux@"^8.1.3" from the root project
+      peerOptional react-redux@"^7.2.1 || ^8.1.3 || ^9.0.0" from @reduxjs/toolkit@2.0.1
+      node_modules/@reduxjs/toolkit
+        @reduxjs/toolkit@"^2.0.1" from the root project
+
+Could not resolve dependency:
+peer react@"^16 || ^17" from react-google-login@5.2.2
+node_modules/react-google-login
+  react-google-login@"^5.2.2" from the root project
+
+Conflicting peer dependency: react@17.0.2
+node_modules/react
+  peer react@"^16 || ^17" from react-google-login@5.2.2
+  node_modules/react-google-login
+    react-google-login@"^5.2.2" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
